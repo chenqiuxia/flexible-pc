@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "postcss-loader": "^3.0.0",
+    "postcss-px2rem": "^0.3.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "viz-charts": "^0.0.7"
   },
   "scripts": {
     "start": "react-scripts start",

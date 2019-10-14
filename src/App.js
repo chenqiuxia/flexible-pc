@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <div className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <p className='text'>
         this is a demo for flexible pc screen and you can see  how it work in different width 
         </p>
         <a
@@ -19,7 +19,9 @@ function App() {
         >
           Learn React
         </a>
-        <Line />
+        <div  className='charts'>
+       <Line />
+       </div>
       
       </div>
     </div>
